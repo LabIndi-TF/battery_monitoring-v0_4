@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Reminder
+- Cek urutan variabel di halaman ReadCSV. Saat ini, timestamp ditempatkan pada kolom terakhir di dalam variabel dataset lokal milik halaman tersebut.
+- Pikirkan cara untuk melakukan penskalaan pada variabel selain dummy. Fungsi ScaleDummy() mudah diimplementasikan karena datanya ada dalam satu chart, dan hanya chart itu saja. Dataset lain terpencar dalam tiga device yang berbeda, sehingga fungsi scaling nya perlu dibuat adaptif terhadap pilihan chart aktif.
+
 ## [0.4] - 2020-09-22
 
 ### Added
@@ -45,7 +49,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Data dummy menjadi data serial (Arduino di COM4)
 - Komponen chart sekarang berhenti melakukan polling data dari server jika halaman yang memuatnya tidak aktif (di unmount)
-- File aplikasi utama (App.js) sekarang tidak memuat MainWindow (komponen berisi chart), tetapi Router
+- File aplikasi utama (App.js) sekarang tidak memuat MainWindow (komponen berisi chart), tetapi Router - yaitu modul yang menampilkan konten tergantung url aktif, yang dapat diubah dengan klik menu di bawah judul.
 
 ## [0.1] - 2020-09-04
 
