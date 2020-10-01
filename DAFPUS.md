@@ -2,6 +2,8 @@
 Berikut adalah sumber dari konsep, trik pemrograman, atau kiat menulis yang diperlukan selama pembuatan aplikasi.
 
 ### Konsep pemrograman
+0. Tutorial ReactJS (tutorial utama yang digunakan dalam mempelajari ReactJS dari nol) : <br/>
+    https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
 1. Konsep React Router (berguna untuk navigasi antar halaman / layout) :<br/>
     https://css-tricks.com/react-router-4/<br/>
     Dengan contoh aplikasi siap jalan sbb :<br/>
@@ -26,6 +28,3 @@ Berikut adalah sumber dari konsep, trik pemrograman, atau kiat menulis yang dipe
 ### Lain-lain
 1. Kiat menulis changelog :<br/>
     https://keepachangelog.com/en/0.3.0/
-
-
-
