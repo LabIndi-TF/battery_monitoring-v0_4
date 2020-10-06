@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup Software
 1. Clone (atau download zip)
-2. Pergi ke direktori root (yang ada README.md nya), ketik ```npm install```
-3. Pergi ke direktori backend dengan ```cd backend```, lalu ```node node_server.js```
-4. Kembali ke root dengan ```cd ../```, lalu ```npm start```
+2. Dengan terminal Powershell #1 yang terdapat di dalam VSCode, pada direktori root (yang ada README.md nya - seharusnya tidak perlu diubah bila folder ini yang dibuka di VSCode), ketik ```npm install```
+3. Dengan terminal Powershell #2 (split atau new terminal), pergi ke direktori backend dengan ```cd backend```, lalu ```node node_server.js```
+4. Kembali ke root pada terminal #1 dengan ```cd ../```, lalu ```npm start```
 5. Cek di browser, http://localhost:3000 untuk UI React, http://localhost:5000/buffer untuk buffer data nya.<br />
     Sementara ini, program dibuat untuk single user. Login dengan username "root" dan password "password".
 
